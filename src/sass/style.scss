@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@import './base/mixin';
+@import './base/varebles';
+@import './blocks/menu';
+@import './blocks/header';
