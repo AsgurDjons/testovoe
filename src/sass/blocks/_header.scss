@@ -1,20 +1,123 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
+.block-1 {
+    position: relative;
     top: 52px;
-    &__region {
-        font-size: 13px;
-        font-weight: 300;
-        color: #323232;
-        a {
-            @include header;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        &__region {
+            font-size: 13px;
+            font-weight: 300;
+            color: #323232;
+            a {
+                @include text-blu;
+            }
+        }
+        &__login {
+            a {
+                @include text-blu;
+                padding-left: 20px;
+            }
         }
     }
-    &__login {
-        a {
-            @include header;
-            padding-left: 20px;
+    .promo-block {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 5px;
+        &__logo {
+            display: flex;
+            flex-direction: column;
+            padding-top: 5px;
+        }
+        &__title {
+            display: flex;
+            font-size: 46px;
+            font-weight: 100;
+            text-transform: uppercase;
+            color: #040d0d;
+        }
+        &__bg {
+            display: block;
+            background: url(../img/bg/MY.jpg) center center/cover no-repeat;
+            border-radius: 10px;
+        }
+        &__text {
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #ff5816;
+        }
+        &__subtitle {
+            font-size: 10px;
+            line-height: 18px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.046em;
+            color: #818588;
+        }
+        &__bell {
+            display: flex;
+        }
+        &__comment {
+            position: relative;
+            width: 112px;
+            height: 57px;
+            padding-right: 16px;
+            img {
+                display: block;
+            }
+            a {
+                position: absolute;
+                top: 15px;
+                left: 16px;
+                width: 64px;
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-decoration: dotted;
+                color: #4673ab;
+                text-align: center;
+            }
+        }
+        &__schedule {
+            width: 189px;
+            height: 80px;
+            .phone {
+                font-size: 22px;
+                text-decoration: none;
+                line-height: 20px;
+                font-weight: 400;
+                color: #040d0d;
+            }
+            p {
+                font-size: 13px;
+                font-weight: 300;
+                line-height: 20px;
+                color: #040d0d;
+            }
+            .subphone {
+                font-size: 13px;
+                line-height: 20px;
+                line-height: 20px;
+                font-weight: 300;
+                text-decoration: none;
+                color: #040d0d;
+            }
+            div {
+                display: flex;
+            }
+            img {
+                display: block;
+                width: 16px;
+                height: 16px;
+                padding-right: 5px;
+            }
+            .addres {
+                font-size: 13px;
+                line-height: 20px;
+                font-weight: 300;
+                text-decoration: underline;
+                color: #4673ab;
+            }
         }
     }
 }

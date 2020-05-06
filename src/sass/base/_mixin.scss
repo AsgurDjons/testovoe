@@ -1,6 +1,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 @mixin menu_a {
     display: block;
@@ -9,7 +10,7 @@
     color: #bdc3c5;
     text-decoration: none;
 }
-@mixin header {
+@mixin text-blu {
     font-size: 13px;
     font-weight: 300;
     color: #4673ab;
