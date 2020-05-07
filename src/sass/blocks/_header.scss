@@ -210,11 +210,6 @@
                 line-height: 18px;
                 font-weight: 300;
                 color: #363c3e;
-                img {
-                    display: block;
-                    width: 15px;
-                    height: 13px;
-                }
                 div{
                     padding-top: 10px;
                     margin-left: 10px;
@@ -224,12 +219,25 @@
             &_block3 {
                 display: flex;
                 width: 89px;
-                img {
-                    padding-right: 8px;
-                }
                 a {
                     padding-left: 5px;
                 }
+            }
+            &_favourites {
+                padding-right: 5px;
+                width: 15px;
+                height: 13px;
+            }
+            &_comparison {
+                padding-right: 5px;
+                width: 15px;
+                height: 20px;
+            }
+            &_linck {
+                font-size: 13px;
+                line-height: 16px;
+                font-weight: 300;
+                color: #4673ab;
             }
         }
     }
