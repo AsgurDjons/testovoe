@@ -14,6 +14,8 @@ header {
             color: #323232;
             a {
                 @include text-blu;
+                text-decoration: none;
+                border-bottom: 1px dotted #4673ab;
             }
         }
         &__login {
