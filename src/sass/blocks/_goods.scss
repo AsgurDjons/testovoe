@@ -92,6 +92,7 @@
         }
     }
     &__novely {
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 846px;
@@ -118,22 +119,6 @@
                 font-style: italic;
                 text-transform: uppercase;
                 color: #131a1a;
-            }
-        }
-        &_courusel {
-            margin-top: 32px;
-        }
-        &_content {
-            position: relative;
-            width: 846px;
-            height: 368px;
-            border-radius: 10px;
-            img {
-                display: block;
-                position: absolute;
-                width: 100%;
-                border-radius: 10px;
-                z-index: -1;
             }
         }
         &_link {
