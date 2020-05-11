@@ -19,44 +19,44 @@
             z-index: -1;
         }
     }
-}
 
-// кнопки слайдера
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
-    border: medium none;
-    background: transparent;
-    img {
-        display: block;
-        width: 16px;
-        height: 44px;
+    // кнопки слайдера
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+        border: medium none;
+        background: transparent;
+        img {
+            display: block;
+            width: 16px;
+            height: 44px;
+        }
     }
-}
-.next  {
-    right: 20px;
-    left: auto;
-}
+    .next  {
+        right: 20px;
+        left: auto;
+    }
 
-// точки слайдера
-.tns-nav {
-    position: absolute;
-    z-index: 10;
-    bottom: 18px;
-    right: 20px;
-    button {
-        margin: 2px;
-        width: 15px;
-        height: 15px;
-        border: none;
-        background-color: #ffffff;
-        border-radius: 4px;
-    }
-    .tns-nav-active {
-        background-color: $general;
-        border: none;
-        border-radius: 4px;
+    // точки слайдера
+    .tns-nav {
+        position: absolute;
+        z-index: 10;
+        bottom: 18px;
+        right: 20px;
+        button {
+            margin: 2px;
+            width: 15px;
+            height: 15px;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 4px;
+        }
+        .tns-nav-active {
+            background-color: $general;
+            border: none;
+            border-radius: 4px;
+        }
     }
 }
