@@ -12,3 +12,14 @@ const slider = tns({
   document.querySelector('.next').addEventListener('click', function () {
     slider.goTo('next');
   });
+
+const sliders = tns({
+    container: '.new-goods__carousel',
+    items: 4,
+    slideBy: 'page',
+    autoplay: false,
+    controlsText:	[
+      '<img src="../img/left.png">',
+      '<img src="../img/right.png">'
+    ]
+  });
