@@ -1,7 +1,94 @@
 .new-goods {
-    margin-top: 60px;
-    &__header {
+    margin-top: 49px;
+    .new-goods__header {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
+        &_title {
+            width: 103px;
+            height: 18px;
+            font-size: 22px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #040d0d;
+        }
+        &_line{
+            margin-top: 11px;
+            width: 927px;
+            height: 1px;
+            border-bottom: 1px solid #bdc3c5;
+        }
+        &_link {
+            width: 76px;
+            height: 13px;
+            a {
+                @include text-blu;
+                text-decoration: underline;
+            }
+        }
+    }
+    .new-goods__carousel {
+        display: flex;
+        justify-content: space-around;
+        padding: 45px 19px 40px 19px;
+        &_inner {
+            width: 233px;
+            height: 388px;
+            background-color: #ffffff;
+            border: 1px solid #dbdee6;
+            border-radius: 10px;
+        }
+        &_img {
+            padding: 32px 32px;
+            display: block;
+            width: 154px;
+            height: 162px;
+        }
+        &_title {
+            display: block;
+            padding-left: 20px;
+            width: 155px;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: underline;
+            color: #4673ab;
+            &:hover {
+                color: $general;
+            }
+        }
+        &_price{
+            padding-left: 20px;
+            padding-top: 15px;
+            font-size: 13px;
+            font-weight: 300;
+            color: #1a2222;
+            .price {
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .discount {
+                text-decoration: line-through;
+                color: #ff5816;
+            }
+        }
+        div {
+            padding-top: 20px;
+            padding-left: 20px;
+            button {
+                background: $general;
+                border: none;
+                width: 114px;
+                height: 40px;
+                border-radius: 7px;
+                &:hover {
+                    background: #4673ab;
+                }
+            }
+            a {
+                padding-left: 5px;
+                @include text-blu;
+                text-decoration: underline; 
+            }
+        }
     }
 }
