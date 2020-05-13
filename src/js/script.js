@@ -18,8 +18,9 @@ const sliders = tns({
     items: 4,
     slideBy: 'page',
     autoplay: false,
+    nav: false,
     controlsText:	[
-      '<img src="../img/left.png">',
-      '<img src="../img/right.png">'
+      '<img src="img/left.png">',
+      '<img src="img/right.png">'
     ]
   });
