@@ -1,4 +1,4 @@
-.new-goods {
+.goods-sale {
     margin-top: 49px;
     &__wrapper {
         padding: 0 25px;
@@ -25,7 +25,7 @@
             }
         }
     }
-    .new-goods__header {
+    .goods-sale__header {
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -53,7 +53,8 @@
             }
         }
     }
-    .new-goods__carousel {
+    .goods-sale__carousel,
+    .goods-sale__carousel-like {
         display: flex;
         justify-content: space-around;
         padding: 45px 12px 40px 12px;

@@ -14,7 +14,7 @@ const slider = tns({
   });
 
 const sliders = tns({
-    container: '.new-goods__carousel',
+    container: '.goods-sale__carousel',
     items: 4,
     slideBy: 'page',
     autoplay: false,
@@ -24,3 +24,15 @@ const sliders = tns({
       '<img src="img/right.png">'
     ]
   });
+  
+const sliderLike = tns({
+  container: '.goods-sale__carousel-like',
+  items: 4,
+  slideBy: 'page',
+  autoplay: false,
+  nav: false,
+  controlsText:	[
+    '<img src="img/left.png">',
+    '<img src="img/right.png">'
+  ]
+});
