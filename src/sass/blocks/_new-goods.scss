@@ -58,6 +58,7 @@
         justify-content: space-around;
         padding: 45px 12px 40px 12px;
         &_inner {
+            position: relative;
             width: 233px;
             height: 388px;
             margin: 10px;
@@ -67,6 +68,12 @@
             &:hover {
                 border: 1px solid #ff5e1e;
             }
+        }
+        &_discount {
+            display: block;
+            position: absolute;
+            top: -6px;
+            left: 12px;
         }
         &_img {
             padding-top: 32px;
