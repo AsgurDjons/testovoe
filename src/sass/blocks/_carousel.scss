@@ -1,15 +1,13 @@
 .carousel {
     position: relative;
+    width: 845px;
     overflow: hidden;
     margin-top: 32px;
     border-radius: 10px;
     &_container {
         position: relative;
-        width: 846px;
-        height: 368px;
     }
     &__inner {
-        width: 846px;
         height: 368px;
         img {
             width: 846px;
@@ -19,7 +17,6 @@
             z-index: -1;
         }
     }
-
     // кнопки слайдера
     .prev, .next {
         position: absolute;
@@ -38,7 +35,6 @@
         right: 20px;
         left: auto;
     }
-
     // точки слайдера
     .tns-nav {
         position: absolute;
