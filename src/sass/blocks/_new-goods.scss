@@ -58,6 +58,7 @@
         justify-content: space-around;
         padding: 45px 12px 40px 12px;
         &_inner {
+            padding: 32px 0 0 20px;
             position: relative;
             width: 233px;
             height: 388px;
@@ -76,14 +77,20 @@
             left: 12px;
         }
         &_img {
-            padding-top: 32px;
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 154px;
+            height: 162px;
             margin: 0 auto;
+            img {
+                display: block;
+            }
 
         }
         &_title {
             display: block;
-            padding-left: 20px;
+            padding-top: 35px;
             width: 155px;
             font-size: 16px;
             font-weight: 500;
@@ -94,7 +101,8 @@
             }
         }
         &_price{
-            padding-left: 20px;
+            display: flex;
+            align-items: flex-end;
             padding-top: 15px;
             font-size: 13px;
             font-weight: 300;
@@ -102,27 +110,40 @@
             .price {
                 font-size: 20px;
                 font-weight: 500;
+                padding-left: 10px;
             }
             .discount {
+                padding-left: 10px;
                 text-decoration: line-through;
                 color: #ff5816;
             }
         }
-        div {
+        &_btn {
+            display: flex;
             padding-top: 20px;
-            padding-left: 20px;
+            align-items: center;
             button {
-                background: $general;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                background: #ff5816;
                 border: none;
                 width: 114px;
                 height: 40px;
                 border-radius: 7px;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: #ffffff;
                 &:hover {
                     background: #4673ab;
                 }
+                img {
+                    margin-right: 5px;
+                }
             }
             a {
-                padding-left: 5px;
+                padding-left: 10px;
                 @include text-blu;
                 text-decoration: underline; 
             }
