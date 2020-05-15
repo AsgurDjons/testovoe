@@ -36,3 +36,14 @@ const sliderLike = tns({
     '<img src="img/right.png">'
   ]
 });
+const sliderPercent = tns({
+  container: '.goods-sale__carousel-percent',
+  items: 4,
+  slideBy: 'page',
+  autoplay: false,
+  nav: false,
+  controlsText:	[
+    '<img src="img/left.png">',
+    '<img src="img/right.png">'
+  ]
+});
