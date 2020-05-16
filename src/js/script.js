@@ -47,3 +47,4 @@ const sliderPercent = tns({
     '<img src="img/right.png">'
   ]
 });
+
