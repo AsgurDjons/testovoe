@@ -96,7 +96,8 @@
             justify-content: space-around;
             padding-top: 35px;
         }
-        &_disadvantage {
+        &_disadvantage,
+        &_advantage {
             width: 555px;
             .disadvantage {
                 display: flex;
@@ -142,10 +143,32 @@
                 }
             }
             .disadvantage-content {
-                width: 552px;
+                width: 551px;
                 height: 290px;
                 border: 2px solid #f6bdbf;
                 border-radius: 0 0 10px 10px;
+                ul {
+                    padding-top: 28px;
+                    padding-left: 50px;
+                    li {
+                        width: 476px;
+                        color: red;
+                        .weight-black {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            text-transform: none;
+                            color: #040d0d;
+                        }
+                        span {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 300;
+                            text-transform: none;
+                            color: #040d0d;
+                        }
+                    }
+                }
             }
         }
         &_advantage {
@@ -167,7 +190,7 @@
                         display: block;
                         position: absolute;
                         top: 50%;
-                        transform: rotate(45deg);
+                        transform: rotate(-45deg);
                         width: 30px;
                         height: 3px;
                         background-color: #fff;
@@ -177,8 +200,8 @@
                         display: block;
                         position: absolute;
                         top: 50%;
-                        transform: rotate(-45deg);
-                        width: 30px;
+                        transform: rotate(45deg) translate(-1px,9px);
+                        width: 15px;
                         height: 3px;
                         background-color: #fff;
                     }
@@ -194,10 +217,32 @@
                 }
             }
             .advantage-content {
-                width: 552px;
+                width: 551px;
                 height: 290px;
                 border: 2px solid #9bd1a6;
                 border-radius: 0 0 10px 10px;
+                ul {
+                    padding-top: 28px;
+                    padding-left: 50px;
+                    li {
+                        width: 476px;
+                        color: green;
+                        .weight-black {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            text-transform: none;
+                            color: #040d0d;
+                        }
+                        span {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 300;
+                            text-transform: none;
+                            color: #040d0d;
+                        }
+                    }
+                }
             }
         }
     }
