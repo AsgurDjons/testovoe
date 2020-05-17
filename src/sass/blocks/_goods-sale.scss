@@ -42,7 +42,8 @@
         &_line-stock,
         &_line-shop,
         &_line-brand,
-        &_line-compani {
+        &_line-compani,
+        &_line-number {
             margin-top: 11px;
             height: 1px;
             border-bottom: 1px solid #bdc3c5;
@@ -67,6 +68,9 @@
         }
         &_line-compani{
             width: 711px;
+        }
+        &_line-number {
+            width: 968px;
         }
         &_link {
             height: 13px;
