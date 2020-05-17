@@ -250,3 +250,93 @@
         }
     }
 }
+
+
+.goods-sale {
+    .number {
+        &_wrapper {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 38px;
+            padding-bottom: 50px;
+        }
+        &_inner {
+            width: 155px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #040d0d;
+            .text-1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 80px;
+                line-height: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.06em;
+                color: $general;
+            }
+            .text-2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 80px;
+                line-height: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.06em;
+                color: #394a5c;
+            }
+            .text-3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 54px;
+                line-height: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.06em;
+                color: #394a5c;
+            }
+            .text-4 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center ;
+                align-items: center;
+                font-size: 44px;
+                line-height: 52px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.06em;
+                color: $general;
+                .number-span-1 {
+                    font-size: 19px;
+                    line-height: 18px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: -0.06em;
+                    color: #ff5816;
+                }
+                .number-span-2 {
+                    font-size: 36px;
+                    line-height: 30px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: -0.06em;
+                    color: #ff5816;
+                }
+            }
+        }
+        &_border {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 130px;
+            height: 130px;
+            border: 1px solid #dbdee6;
+            border-radius: 100%
+        }
+    }
+}

@@ -43,7 +43,8 @@
         &_line-shop,
         &_line-brand,
         &_line-compani,
-        &_line-number {
+        &_line-number,
+        &_line-worck {
             margin-top: 11px;
             height: 1px;
             border-bottom: 1px solid #bdc3c5;
@@ -71,6 +72,9 @@
         }
         &_line-number {
             width: 968px;
+        }
+        &_line-worck {
+            width: 874px;
         }
         &_link {
             height: 13px;
