@@ -104,9 +104,19 @@
             text-decoration: underline;
             color: #ffffff;
         }
+        .social-network {
+            display: flex;
+            padding-top: 40px;
+            a {
+                margin: 2px;
+                img {
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
     }
-
-
 
     .subfooter__bg {
         width: 100%;
