@@ -1,0 +1,88 @@
+.goods-sale {
+    .worck_wrapper {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        .worck_descr-1 {
+            display: flex;
+            align-items: center;
+            div {
+                padding-right: 30px;
+                a {
+                    font-size: 15px;
+                    line-height: 18px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #040d0d;
+                    text-decoration: none;
+                }
+            }
+            .worck_btn {
+                display: flex;
+                align-items: center;
+                margin-right: 5px;
+                padding: 0px 28px;
+                height: 43px;
+                background-color: #dbdee6;
+                border-radius: 7px;
+                a {
+                    display: block;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: $general;
+                    text-decoration: none;
+                    border-bottom: 1px dotted $general;
+                }
+            }
+        }
+        .worck_descr-2 {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 60px;
+            padding-bottom: 40px;
+            div {
+                display: flex;
+                align-items: flex-start;
+                font-size: 15px;
+                line-height: 18px;
+                font-weight: 300;
+                color: #040d0d;
+                img {
+                    display: block;
+                }
+                span {
+                    padding-left: 10px;
+                }
+                .arrow {
+                    display: block;
+                    padding-top: 10px;
+                    width: 45px;
+                    height: 10px;
+                }
+            }
+        }
+        .worck-line {
+            margin-top: 11px;
+            height: 1px;
+            border-bottom: 1px solid #bdc3c5;
+            width: 1139px;
+        }
+        .worck_descr-3 {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            .worck_text{
+                width: 550px;
+                font-size: 15px;
+                line-height: 22px;
+                font-weight: 300;
+                color: #040d0d;
+                a {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    color: $general;
+                }
+            }
+        }
+    }
+}

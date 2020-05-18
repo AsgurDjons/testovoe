@@ -119,9 +119,9 @@
                         display: block;
                         position: absolute;
                         top: 50%;
-                        transform: rotate(45deg);
-                        width: 30px;
-                        height: 3px;
+                        transform: rotate(45deg) ;
+                        width: 28px;
+                        height: 4px;
                         background-color: #fff;
                     }
                     &::after {
@@ -129,9 +129,9 @@
                         display: block;
                         position: absolute;
                         top: 50%;
-                        transform: rotate(-45deg);
-                        width: 30px;
-                        height: 3px;
+                        transform: rotate(-45deg) ;
+                        width: 28px;
+                        height: 4px;
                         background-color: #fff;
                     }
                 }
@@ -194,8 +194,8 @@
                         position: absolute;
                         top: 50%;
                         transform: rotate(-45deg);
-                        width: 30px;
-                        height: 3px;
+                        width: 28px;
+                        height: 4px;
                         background-color: #fff;
                     }
                     &::after {
@@ -203,9 +203,9 @@
                         display: block;
                         position: absolute;
                         top: 50%;
-                        transform: rotate(45deg) translate(-1px,9px);
+                        transform: rotate(45deg) translate(-2px,9px);
                         width: 15px;
-                        height: 3px;
+                        height: 4px;
                         background-color: #fff;
                     }
                 }
