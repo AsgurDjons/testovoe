@@ -1,0 +1,37 @@
+.hamburger {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    &__layer {
+        position: relative;
+        top: 10px;
+        width: 32px;
+        height: 3px;
+        background-color: $general;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 6px;
+            width: 32px;
+            height: 3px;
+            background-color: $general;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 12px;
+            width: 32px;
+            height: 3px;
+            background-color: $general;
+        }
+    }
+    &__text {
+        position: absolute;
+        left: 40px;
+        top: 8px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #bdc3c5;
+    }
+}

@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+    nav {
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .menu {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                margin: 2px auto;
+                position: absolute;
+                top: 50%;
+            }
+        }
+    }
+}
