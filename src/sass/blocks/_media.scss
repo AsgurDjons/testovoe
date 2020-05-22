@@ -19,4 +19,33 @@
             }
         }
     }
+    .goods {
+        .sub-menu {
+            display: none;
+        }
+        &__novely {
+            width: 646px;
+            &_header {
+                width: 646px;
+                font-size: 12px;
+                span {
+                    font-size: 12px;
+                }
+            }
+            &_link {
+                font-size: 12px;
+            }
+            .carousel {
+                width: 646px;
+                height: 368px;
+                &_container {
+                   .carousel__inner {
+                        img {
+                            width: 646px;
+                        }
+                   } 
+                }
+            }
+        }
+    }
 }
