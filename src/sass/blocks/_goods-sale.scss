@@ -3,7 +3,6 @@
         padding: 0 25px;
         .tns-outer{
             .tns-controls {
-                position: relative;
                 [data-controls=prev] {
                     position: absolute;
                     top: 52%;
@@ -32,10 +31,15 @@
         align-items: flex-start;
         &_title {
             font-size: 22px;
-            line-height: 20px;
             font-weight: 500;
             text-transform: uppercase;
             color: #040d0d;
+            img {
+                display: none;
+                padding-left: 15px;
+                width: 9px;
+                height: 24px;
+            }
         }
         &_line-new,
         &_line-like,

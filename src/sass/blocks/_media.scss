@@ -72,14 +72,15 @@
             padding: 0 0;
             .tns-outer{
                 .tns-controls {
-                    width: 980px;
                     display: flex;
                     justify-content: flex-end;
+                    position: relative;
+                    width: 980px;
                     [data-controls=prev] {
                         width: 30px;
                         height: 30px;
                         border-radius: 100%;
-                        top: -7px;
+                        top: -13px;
                         border: 1px solid #dbdee6;
                         left: 92%;
                         &:hover {
@@ -95,7 +96,7 @@
                         width: 30px;
                         height: 30px;
                         border-radius: 100%;
-                        top: -7px;
+                        top: -13px;
                         border: 1px solid #dbdee6;
                         right: 1%;
                         &:hover {
@@ -111,21 +112,94 @@
             }
         }
         &__header {
+            .goods-sale__header_title {
+                display: flex;
+                img {
+                    display: block;
+                    padding-right: 25px;
+                }
+            }
             &_line-new,
             &_line-like,
             &_line-percent,
             &_line-stock,
-            &_line-shop,
-            &_line-brand,
-            &_line-compani,
-            &_line-number,
-            &_line-worck {
-                margin-right: 100px;
+            &_line-brand {
+                margin-right: 90px;
             }
             &_link {
                 display: none;
             }
+            .goods-sale__header_line-compani,
+            .goods-sale__header_line-brand {
+                width: calc(100% - 45%);
+            }
+            .goods-sale__header_line-shop {
+                width: calc(100% - 38%);
+            }
+            .goods-sale__header_line-number {
+                width: calc(100% - 20%);
+            }
+            .goods-sale__header_line-worck {
+                width: calc(100% - 30%);
+            }
         }
-
+        .goods-sale__compani_wrapper {
+            .goods-sale__compani_disadvantage {
+                width: 455px;
+                .disadvantage-content {
+                    width: 451px;
+                    ul{
+                        padding-top: 24px;
+                        padding-left: 40px;
+                        li{
+                            width: 400px;
+                            .weight-black {
+                                line-height: 10px;
+                            } 
+                            span {
+                                line-height: 10px;
+                            } 
+                        }
+                    }
+                }
+            }
+            .goods-sale__compani_advantage {
+                width: 455px;
+                .advantage-content {
+                    width: 451px;
+                    ul{
+                        padding-top: 24px;
+                        padding-left: 40px;
+                        li{
+                            width: 400px;
+                            .weight-black {
+                                line-height: 10px;
+                            } 
+                            span {
+                                line-height: 10px;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        &__addres {
+            width: 155px;
+        }
+        &__comment {
+            position: absolute;
+            bottom: -5%;
+            right: 28%;
+        }
+        &__schedule {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end
+        }
+        .skype {
+            display: flex;
+        }
     }
 }

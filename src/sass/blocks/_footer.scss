@@ -97,6 +97,20 @@
             height: 16px;
             padding-right: 5px;
         }
+        .skype {
+            display: none;
+            img {
+               display: block; 
+            }
+            a {
+                display: block;
+                font-size: 13px;
+                font-weight: 300;
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+        }
         .addres {
             font-size: 13px;
             line-height: 20px;
@@ -127,6 +141,7 @@
             justify-content: space-between;
             padding-top: 22px;
             div {
+                width: 830px;
                 font-size: 11px;
                 line-height: 18px;
                 font-weight: 300;

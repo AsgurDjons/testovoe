@@ -29,9 +29,58 @@
     &_wrapper {
         margin: 51px 0;
     }
-    &_logo {
-        img {
-            display: block;
+    &_container {
+        display: none;
+        width: 100%;
+        height: 52px;
+    }
+    &_carousel {
+        display: flex;
+        width: 100%;
+        height: 52px;
+        padding-top: 48px;
+        padding-bottom: 60px;
+        .iner-1,
+        .iner-2,
+        .iner-3,
+        .iner-4,
+        .iner-5,
+        .iner-6,
+        .iner-7,
+        .iner-8,
+        .iner-9 {
+            width: 120px;
+            height: 52px;
+            background: url('../img/carousel/brands.jpg') no-repeat;
+            background-position: -2%;
+        }
+        .iner-2 {
+            background-position: -127px 0;
+        }
+        .iner-3 {
+            background-position: -267px 0;
+
+        }
+        .iner-4 {
+            background-position: -380px 0;
+        }
+        .iner-5 {
+            background-position: -521px 0;
+        }
+        .iner-6 {
+            background-position: 63% ;
+        }
+        .iner-6 {
+            background-position: 75% ;
+        }
+        .iner-7 {
+            background-position: 87% ;
+        }
+        .iner-8 {
+            background-position: 100% ;
+        }
+        .iner-9 {
+            background-position: 63% ;
         }
     }
 }
