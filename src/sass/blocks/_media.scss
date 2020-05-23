@@ -68,6 +68,48 @@
         }
     }
     .goods-sale {
+        &__wrapper {
+            padding: 0 0;
+            .tns-outer{
+                .tns-controls {
+                    width: 980px;
+                    display: flex;
+                    justify-content: flex-end;
+                    [data-controls=prev] {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 100%;
+                        top: -7px;
+                        border: 1px solid #dbdee6;
+                        left: 92%;
+                        &:hover {
+                            border: 1px solid $general;
+                        }
+                        img {
+                            margin: 0 auto;
+                            width: 8px;
+                            height: 14px;
+                        }
+                    }
+                    [data-controls=next] {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 100%;
+                        top: -7px;
+                        border: 1px solid #dbdee6;
+                        right: 1%;
+                        &:hover {
+                            border: 1px solid $general;
+                        }
+                        img {
+                            margin: 0 auto;
+                            width: 8px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
         &__header {
             &_line-new,
             &_line-like,
@@ -79,33 +121,6 @@
             &_line-number,
             &_line-worck {
                 margin-right: 100px;
-            }
-            &_line-new {
-                width: calc(100% - 20%);
-            }
-            &_line-like {
-                width: calc(100% - 28%);
-            }
-            &_line-percent {
-                width: calc(100% - 23%);
-            }
-            &_line-stock {
-                width: calc(100% - 16%);
-            }
-            &_line-shop{
-                width: calc(100% - 5%);
-            }
-            &_line-brand {
-                width: calc(100% - 35%);
-            }
-            &_line-compani{
-                width: calc(100% - 39%);
-            }
-            &_line-number {
-                width: calc(100% - 15%);
-            }
-            &_line-worck {
-                width: calc(100% - 24%);
             }
             &_link {
                 display: none;

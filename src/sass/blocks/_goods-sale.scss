@@ -3,6 +3,7 @@
         padding: 0 25px;
         .tns-outer{
             .tns-controls {
+                position: relative;
                 [data-controls=prev] {
                     position: absolute;
                     top: 52%;
