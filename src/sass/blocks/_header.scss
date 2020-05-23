@@ -119,6 +119,19 @@ padding-top: 20px;
                 height: 16px;
                 padding-right: 5px;
             }
+            .skype {
+                display: none;
+                img {
+                   display: block; 
+                }
+                a {
+                    font-size: 13px;
+                    font-weight: 300;
+                    color: #040d0d;
+                    text-decoration: none;
+                }
+
+            }
             .addres {
                 font-size: 13px;
                 line-height: 20px;
@@ -163,6 +176,13 @@ padding-top: 20px;
         }
         &__basket {
             width: 195px;
+            position: relative;
+            &_search {
+                display: none;
+                position: absolute;
+                top: 20%;
+                left: -20%;
+            }
             &_bg {
                 width: 195px;
                 height: 52px;

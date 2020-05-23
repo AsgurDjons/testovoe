@@ -2,20 +2,40 @@
     .container {
         width: 970px;
     }
-    nav {
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            .menu {
-                display: none;
+    header {
+        nav {
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .menu {
+                    display: none;
+                }
+                .hamburger {
+                    display: block;
+                    margin: 2px auto;
+                    position: absolute;
+                    top: 50%;
+                }
             }
-            .hamburger {
-                display: block;
-                margin: 2px auto;
-                position: absolute;
-                top: 50%;
+        }
+        .block-1 {
+            .promo {
+                &__bell {
+                    padding-left: 5%;
+                    .skype {
+                        display: flex;
+                    }
+                }
+                &__voip {
+                    display: none;
+                }
+                &__basket {
+                    &_search {
+                        display: block;
+                    }
+                }
             }
         }
     }
@@ -38,14 +58,59 @@
             .carousel {
                 width: 646px;
                 height: 368px;
-                &_container {
-                   .carousel__inner {
-                        img {
-                            width: 646px;
-                        }
-                   } 
+                &__inner {
+                    width: 646px;
+                }
+                &__bg {
+                    background-position: 65%;
                 }
             }
         }
+    }
+    .goods-sale {
+        &__header {
+            &_line-new,
+            &_line-like,
+            &_line-percent,
+            &_line-stock,
+            &_line-shop,
+            &_line-brand,
+            &_line-compani,
+            &_line-number,
+            &_line-worck {
+                margin-right: 100px;
+            }
+            &_line-new {
+                width: calc(100% - 20%);
+            }
+            &_line-like {
+                width: calc(100% - 28%);
+            }
+            &_line-percent {
+                width: calc(100% - 23%);
+            }
+            &_line-stock {
+                width: calc(100% - 16%);
+            }
+            &_line-shop{
+                width: calc(100% - 5%);
+            }
+            &_line-brand {
+                width: calc(100% - 35%);
+            }
+            &_line-compani{
+                width: calc(100% - 39%);
+            }
+            &_line-number {
+                width: calc(100% - 15%);
+            }
+            &_line-worck {
+                width: calc(100% - 24%);
+            }
+            &_link {
+                display: none;
+            }
+        }
+
     }
 }

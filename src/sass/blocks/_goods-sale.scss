@@ -50,31 +50,31 @@
             border-bottom: 1px solid #bdc3c5;
         }
         &_line-new {
-            width: 927px;
+            width: calc(100% - 20%);
         }
         &_line-like {
-            width: 824px;
+            width: calc(100% - 28%);
         }
         &_line-percent {
-            width: 881px;
+            width: calc(100% - 23%);
         }
         &_line-stock {
-            width: 969px;
+            width: calc(100% - 16%);
         }
         &_line-shop{
-            width: 787px;
+            width: calc(100% - 5%);
         }
         &_line-brand {
-            width: 747px;;
+            width: calc(100% - 35%);
         }
         &_line-compani{
-            width: 711px;
+            width: calc(100% - 39%);
         }
         &_line-number {
-            width: 968px;
+            width: calc(100% - 15%);
         }
         &_line-worck {
-            width: 874px;
+            width: calc(100% - 24%);
         }
         &_link {
             height: 13px;

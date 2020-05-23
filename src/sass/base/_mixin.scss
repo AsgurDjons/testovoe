@@ -1,6 +1,8 @@
 .container {
     width: 1140px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    position: relative;
+}
 @mixin menu_a {
     display: block;
     font-size: 13px;

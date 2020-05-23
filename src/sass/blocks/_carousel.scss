@@ -9,13 +9,11 @@
     }
     &__inner {
         height: 368px;
-        img {
-            width: 846px;
-            display: block;
-            position: absolute;
-            border-radius: 10px;
-            z-index: -1;
-        }
+    }
+    // картинки для флна слайдера 
+    &__bg {
+        height: 368px;
+        background: url('../img/layers.jpg') no-repeat;
     }
     // кнопки слайдера
     .prev, .next {
