@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .container {
-        width: 970px;
+        width: 980px;
     }
     header {
         nav {
@@ -82,7 +82,7 @@
                         border-radius: 100%;
                         top: -13px;
                         border: 1px solid #dbdee6;
-                        left: 92%;
+                        left: 91%;
                         &:hover {
                             border: 1px solid $general;
                         }
@@ -98,7 +98,7 @@
                         border-radius: 100%;
                         top: -13px;
                         border: 1px solid #dbdee6;
-                        right: 1%;
+                        right: 2%;
                         &:hover {
                             border: 1px solid $general;
                         }
