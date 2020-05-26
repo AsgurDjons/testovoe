@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .container {
-        width: 970px;
+        width: 940px;
     }
     header {
         nav {
@@ -82,7 +82,7 @@
                         border-radius: 100%;
                         top: -13px;
                         border: 1px solid #dbdee6;
-                        left: 91%;
+                        left: 88%;
                         &:hover {
                             border: 1px solid $general;
                         }
@@ -98,7 +98,7 @@
                         border-radius: 100%;
                         top: -13px;
                         border: 1px solid #dbdee6;
-                        right: 2%;
+                        right: 5%;
                         &:hover {
                             border: 1px solid $general;
                         }
@@ -131,7 +131,7 @@
             }
             .goods-sale__header_line-compani,
             .goods-sale__header_line-brand {
-                width: calc(100% - 45%);
+                width: calc(100% - 46%);
             }
             .goods-sale__header_line-shop {
                 width: calc(100% - 38%);
@@ -201,5 +201,10 @@
         .skype {
             display: flex;
         }
+    }
+}
+@media (max-width: 750px) {
+    .container {
+        width: 720px;
     }
 }
