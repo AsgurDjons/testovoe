@@ -203,8 +203,27 @@
         }
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 979px) {
     .container {
         width: 720px;
+    }
+    header {
+        .block-1 {
+            .promo {
+                margin: 0;
+                padding-top: 15px;
+                &__comment {
+                    display: none;
+                }
+            }
+        }
+    }
+    .goods {
+        &__novely {
+            width: 470px;
+            &_header {
+                width: 470px; 
+            }
+        }
     }
 }
