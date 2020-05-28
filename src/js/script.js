@@ -22,7 +22,18 @@ const sliders = tns({
     controlsText:	[
       '<img src="img/left.png">',
       '<img src="img/right.png">'
-    ]
+    ],
+    responsive: {
+      640: {
+        items: 1,
+      },
+      900: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    }
   });
   
 const sliderLike = tns({
@@ -34,7 +45,18 @@ const sliderLike = tns({
   controlsText:	[
     '<img src="img/left.png">',
     '<img src="img/right.png">'
-  ]
+  ],
+  responsive: {
+    640: {
+      items: 1,
+    },
+    900: {
+      items: 3,
+    },
+    1200: {
+      items: 4,
+    },
+  }
 });
 
 const sliderPercent = tns({
@@ -46,7 +68,18 @@ const sliderPercent = tns({
   controlsText:	[
     '<img src="img/left.png">',
     '<img src="img/right.png">'
-  ]
+  ],
+  responsive: {
+    640: {
+      items: 1,
+    },
+    900: {
+      items: 3,
+    },
+    1200: {
+      items: 4,
+    },
+  }
 });
 
 const sliderStock = tns({
@@ -58,7 +91,18 @@ const sliderStock = tns({
   controlsText:	[
     '<img src="img/left.png">',
     '<img src="img/right.png">'
-  ]
+  ],
+  responsive: {
+    640: {
+      items: 1,
+    },
+    900: {
+      items: 3,
+    },
+    1200: {
+      items: 4,
+    },
+  }
 });
 
 const sliderBrand = tns({
