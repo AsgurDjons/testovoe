@@ -231,6 +231,16 @@
         }
     }
     .goods {
+        .goods__news {
+            .goods__news_header {
+                font-size: 19px;
+                margin-right: 25px;
+            }
+            .goods__item {
+                padding: 8px 0 8px 0;
+                margin-right: 25px;
+            }
+        }
         &__novely {
             width: 470px;
             &_header {
@@ -245,7 +255,215 @@
             }
             .carousel {
                 width: 470px;
+                .carousel__inner {
+                    .novely__header {
+                        font-size: 20px;
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                    .novely__subheader {
+                        font-size: 11px;
+                    }
+                    ul {
+                        padding-left: 65px;
+                        li {
+                            font-size: 10px;
+                        }
+                    }
+                }
             }
         }
     }
-}
+   .goods-sale {
+        &__wrapper {
+            position: relative;
+            padding: 0 0;
+            .tns-outer {
+                .tns-controls {
+                    display: flex;
+                    justify-content: flex-end;
+                    position: relative;
+                    width: 980px;
+                    [data-controls=prev] {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 100%;
+                        top:  -13px;
+                        border: 1px solid #dbdee6;
+                        left: 65%;
+                        &:hover {
+                            border: 1px solid $general;
+                        }
+                        img {
+                            margin: 0 auto;
+                            width: 8px;
+                            height: 14px;
+                        }
+                    }
+                    [data-controls=next] {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 100%;
+                        top: -13px;
+                        border: 1px solid #dbdee6;
+                        right: 28%;
+                        &:hover {
+                            border: 1px solid $general;
+                        }
+                        img {
+                            margin: 0 auto;
+                            width: 8px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        .goods-sale__shop_wrapper {
+            .goods-sale__shop_inner {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+        &__bg {
+            .goods-sale__force_wrapper {
+                .goods-sale__force_line {
+                    width: 50%;
+                }
+            }
+            .goods-sale__price {
+                .goods-sale__price_list {
+                    width: 120px;
+                }
+            }
+        }
+        .goods-sale__header{
+            .goods-sale__header_line-compani {
+                width: calc(100% - 62%);
+            }
+        }
+        &__header {
+            .goods-sale__header_title {
+                display: flex;
+                img {
+                    display: block;
+                    padding-right: 25px;
+                }
+            }
+            &_line-new,
+            &_line-like,
+            &_line-percent,
+            &_line-stock,
+            &_line-brand {
+                margin-right: 90px;
+            }
+            &_link {
+                display: none;
+            }
+            .goods-sale__header_line-compani,
+            .goods-sale__header_line-brand {
+                width: calc(100% - 60%);
+            }
+            .goods-sale__header_line-shop {
+                width: calc(100% - 50%);
+            }
+            .goods-sale__header_line-number {
+                width: calc(100% - 36%);
+            }
+            .goods-sale__header_line-worck {
+                width: calc(100% - 40%);
+            }
+        }
+        .goods-sale__compani_wrapper {
+            .goods-sale__compani_disadvantage {
+                width: 345px;
+                .disadvantage-content {
+                    width: 341px;
+                    height: 491px;
+                    ul{
+                        padding-top: 20px;
+                        padding-left: 33px;
+                        li{
+                            width: 300px;
+                            .weight-black {
+                                line-height: 26px;
+                            } 
+                            span {
+                                line-height: 26px;
+                            } 
+                        }
+                    }
+                }
+            }
+            .goods-sale__compani_advantage {
+                width: 345px;
+                .advantage-content {
+                    width: 341px;
+                    height: 491px;
+                    ul{
+                        padding-top: 20px;
+                        padding-left: 33px;
+                        li{
+                            width: 300px;
+                            .weight-black {
+                                line-height: 26px;
+                            } 
+                            span {
+                                line-height: 26px;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .goods-sale {
+        .goods-sale__header {
+            .goods-sale__header_line-number {
+                margin-right: 90px;
+            }
+        }
+        .tns-outer {
+            .tns-controls {
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+                width: 980px;
+                [data-controls=prev] {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    top:  -13px;
+                    border: 1px solid #dbdee6;
+                    left: 65%;
+                    &:hover {
+                        border: 1px solid $general;
+                    }
+                    img {
+                        margin: 0 auto;
+                        width: 8px;
+                        height: 14px;
+                    }
+                }
+                [data-controls=next] {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    top: -13px;
+                    border: 1px solid #dbdee6;
+                    right: 28%;
+                    &:hover {
+                        border: 1px solid $general;
+                    }
+                    img {
+                        margin: 0 auto;
+                        width: 8px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+    }
+}   

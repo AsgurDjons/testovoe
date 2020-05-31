@@ -24,13 +24,19 @@ const sliders = tns({
       '<img src="img/right.png">'
     ],
     responsive: {
-      640: {
+      0: {
         items: 1,
       },
-      900: {
+      320: {
+        items: 1,
+      },
+      321: {
         items: 3,
       },
-      1200: {
+      750: {
+        items: 3,
+      },
+      980: {
         items: 4,
       },
     }
@@ -47,13 +53,19 @@ const sliderLike = tns({
     '<img src="img/right.png">'
   ],
   responsive: {
-    640: {
+    0: {
       items: 1,
     },
-    900: {
+    320: {
+      items: 1,
+    },
+    321: {
       items: 3,
     },
-    1200: {
+    750: {
+      items: 3,
+    },
+    980: {
       items: 4,
     },
   }
@@ -70,13 +82,19 @@ const sliderPercent = tns({
     '<img src="img/right.png">'
   ],
   responsive: {
-    640: {
+    0: {
       items: 1,
     },
-    900: {
+    320: {
+      items: 1,
+    },
+    321: {
       items: 3,
     },
-    1200: {
+    750: {
+      items: 3,
+    },
+    980: {
       items: 4,
     },
   }
@@ -93,13 +111,19 @@ const sliderStock = tns({
     '<img src="img/right.png">'
   ],
   responsive: {
-    640: {
+    0: {
       items: 1,
     },
-    900: {
+    320: {
+      items: 1,
+    },
+    321: {
       items: 3,
     },
-    1200: {
+    750: {
+      items: 3,
+    },
+    980: {
       items: 4,
     },
   }
@@ -107,13 +131,53 @@ const sliderStock = tns({
 
 const sliderBrand = tns({
   container: '.goods-sale__brand_carousel',
-  items: 7,
+  items: 9,
   slideBy: 'page',
   autoplay: false,
   nav: false,
   controlsText:	[
     '<img src="img/left.png">',
     '<img src="img/right.png">'
-  ]
+  ],
+  responsive: {
+    320: {
+      items: 1,
+    },
+    321: {
+      items: 7,
+    },
+    980: {
+      items: 7,
+    },
+    1140: {
+      items: 9,
+    },
+  }
+});
+
+const sliderNumber = tns({
+  container: '.number_wrapper',
+  items: 6,
+  slideBy: 'page',
+  autoplay: false,
+  nav: false,
+  controlsText:	[
+    '<img src="img/left.png">',
+    '<img src="img/right.png">',
+  ],
+  responsive: {
+    320: {
+      items: 4,
+    },
+    321: {
+      items: 4,
+    },
+    750: {
+      items: 4,
+    },
+    980: {
+      items: 6,
+    },
+  }
 });
 
