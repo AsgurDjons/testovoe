@@ -169,13 +169,10 @@ const sliderNumber = tns({
     320: {
       items: 4,
     },
-    321: {
-      items: 4,
-    },
-    750: {
-      items: 4,
-    },
     980: {
+      items: 4,
+    },
+    1140: {
       items: 6,
     },
   }

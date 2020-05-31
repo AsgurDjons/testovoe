@@ -425,45 +425,5 @@
                 margin-right: 90px;
             }
         }
-        .tns-outer {
-            .tns-controls {
-                display: flex;
-                justify-content: flex-end;
-                position: relative;
-                width: 980px;
-                [data-controls=prev] {
-                    width: 30px;
-                    height: 30px;
-                    border-radius: 100%;
-                    top:  -13px;
-                    border: 1px solid #dbdee6;
-                    left: 65%;
-                    &:hover {
-                        border: 1px solid $general;
-                    }
-                    img {
-                        margin: 0 auto;
-                        width: 8px;
-                        height: 14px;
-                    }
-                }
-                [data-controls=next] {
-                    width: 30px;
-                    height: 30px;
-                    border-radius: 100%;
-                    top: -13px;
-                    border: 1px solid #dbdee6;
-                    right: 28%;
-                    &:hover {
-                        border: 1px solid $general;
-                    }
-                    img {
-                        margin: 0 auto;
-                        width: 8px;
-                        height: 14px;
-                    }
-                }
-            }
-        }
     }
 }   
