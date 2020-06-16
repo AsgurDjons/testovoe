@@ -441,6 +441,9 @@
                 }
             }
             .promo {
+                &__title {
+                    font-size: 32px;
+                }
                 &__subtitle {
                     display: none;
                 }
@@ -454,6 +457,9 @@
                 }
                 .promo__basket {
                     &_block2 {
+                        display: none;
+                    }
+                    &_quantity {
                         display: none;
                     }
                 }
