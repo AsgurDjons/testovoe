@@ -30,7 +30,7 @@ const sliders = tns({
       320: {
         items: 1,
       },
-      720: {
+      721: {
         items: 3,
       },
       750: {
@@ -59,7 +59,7 @@ const sliderLike = tns({
     320: {
       items: 1,
     },
-    720: {
+    721: {
       items: 3,
     },
     750: {
@@ -88,7 +88,7 @@ const sliderPercent = tns({
     320: {
       items: 1,
     },
-    720: {
+    721: {
       items: 3,
     },
     750: {
@@ -117,7 +117,7 @@ const sliderStock = tns({
     320: {
       items: 1,
     },
-    720: {
+    721: {
       items: 3,
     },
     750: {
