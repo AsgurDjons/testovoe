@@ -487,16 +487,46 @@
                 }
             }
         }
+        .worck_wrapper {
+            .worck_descr-1 {
+                flex-wrap: wrap;
+                div {
+                    &:nth-child(2) {
+                        width: 140px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    &:nth-child(3) {
+                        margin: 0;
+                        padding: 0 10px 0 0;
+                    }
+                }
+                .worck_btn {
+                    margin: 10px;
+                    padding: 0 5px;
+                }
+            }
+            .worck_descr-2 {
+                flex-wrap: wrap;
+                div {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    span {
+                        text-align: center;
+                        width: 136px;
+                    }
+                }
+            }
+        }
     }
     .delete  {
         display: none;
     }
     .goods-sale__header .goods-sale__header_line-worck {
-        width: calc(100% - 87%);
-        .worck_wrapper {
-            .worck_descr-1 {
-                
-            }
-        } 
+        width: calc(100% - 87%); 
+    }
+    footer {
+        display: none;
     }
 }
