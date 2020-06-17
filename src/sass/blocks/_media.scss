@@ -441,6 +441,11 @@
                 }
             }
             .promo {
+                .promo__basket {
+                    &_bg {
+                        background: none;
+                    }
+                }
                 &__title {
                     font-size: 32px;
                 }
@@ -488,5 +493,10 @@
     }
     .goods-sale__header .goods-sale__header_line-worck {
         width: calc(100% - 87%);
+        .worck_wrapper {
+            .worck_descr-1 {
+                
+            }
+        } 
     }
 }
