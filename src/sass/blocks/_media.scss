@@ -1,4 +1,8 @@
 @media (max-width: 1200px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
     .container {
         width: 940px;
     }
@@ -204,6 +208,10 @@
     }
 }
 @media (max-width: 979px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
     .container {
         width: 720px;
     }
@@ -427,7 +435,7 @@
         }
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 720px) {
     html,
     body {
         overflow-x: hidden;

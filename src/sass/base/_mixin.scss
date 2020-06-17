@@ -3,6 +3,22 @@
     margin: 0 auto;
     position: relative;
 }
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(152, 192, 195);
+    box-shadow: 0 0 5px rgba(0,0,0,2) inset;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(241, 141, 83);
+    border-radius: 20px;
+    border: solid 2px rgb(152, 192, 195);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 82, 2);
+
+}
 @mixin menu_a {
     display: block;
     font-size: 13px;
