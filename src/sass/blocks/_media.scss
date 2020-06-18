@@ -436,10 +436,10 @@
     }
 }
 @media (max-width: 720px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
+    // html,
+    // body {
+    //     overflow-x: hidden;
+    // }
     .container {
         max-width: 320px;
     }
@@ -582,7 +582,45 @@
     .goods-sale__header .goods-sale__header_line-worck {
         width: calc(100% - 87%); 
     }
-    footer {
-        display: none;
+    .footer {
+        .footer__bg {
+            height: 215px;
+            .footer__block {
+                .footer__addres {
+                    display: none;
+                }
+                .footer__bell {
+                    .footer__schedule {
+                        width: 145px;
+                        .phone {
+                            font-size: 16px;
+                        }
+                        p {
+                            display: none;
+                        }
+                    }
+                }
+                .footer__bell {
+                    .footer__comment {
+                        display: none;
+                    }
+                }
+                .footer__nav {
+                    display: none;
+                }
+            }
+        }
+        .subfooter__bg {
+            .subfooter__block {
+                display: flex;
+                justify-content: center;
+                div {
+                    display: none;
+                }
+                a {
+                    display: block;
+                }
+            }
+        }
     }
 }
