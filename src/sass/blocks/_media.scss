@@ -444,6 +444,7 @@
         max-width: 320px;
     }
     header {
+        height: 225px;
         .block-1 {
             .header {
                 &__login {
@@ -456,6 +457,21 @@
                 .promo__basket {
                     &_bg {
                         background: none;
+                        .promo__basket_block {
+                            img {
+                                position: absolute;
+                                right: 0;
+                            }
+                        }
+                    }
+                    &_search {
+                        a {
+                            img {
+                                position: absolute;
+                                right: -175px;
+                                top: 5px;
+                            }
+                        }
                     }
                 }
                 &__title {
@@ -466,7 +482,9 @@
                 }
                 &__schedule {
                     .phone {
-                        display: none;
+                        position: absolute;
+                        font-size: 17px;
+                        left: -100px;
                     }
                     p {
                         display: none;
@@ -480,11 +498,25 @@
                         display: none;
                     }
                 }
-                // .promo__bell {
-                //     .promo__schedule {
-
-                //     }
-                // }
+                .promo__bell {
+                    .promo__schedule {
+                        width: 214px;
+                        div {
+                            position: absolute;
+                            top: 85px;
+                            left: -100px;
+                        }
+                        .skype {
+                            position: absolute;
+                            left: 124px;
+                            top: 86px;
+                        }
+                        .addres {
+                            position: absolute;
+                            top: 60px;
+                        }
+                    }
+                }
             }
         }
     }
@@ -525,6 +557,14 @@
             }
             .worck_descr-2 {
                 flex-wrap: wrap;
+                position: relative;
+                div:nth-child(2) {
+                    img {
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
                 div {
                     flex-direction: column;
                     justify-content: flex-start;
